@@ -16,7 +16,6 @@
     * Uber, Netflix, Spotify, DropBox
 4. Cross-platform
     * Supported languages: [Documentation | gRPC](https://grpc.io/docs/)
-5. Vs. Rest API
 
 ## Demo
 
