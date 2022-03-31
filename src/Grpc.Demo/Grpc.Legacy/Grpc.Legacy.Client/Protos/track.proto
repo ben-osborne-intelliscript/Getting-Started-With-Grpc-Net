@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+option csharp_namespace = "Grpc.Legacy.Client";
+import "google/protobuf/timestamp.proto";
+
+package track;
+
+service TrackProtoService {
+    rpc Get (TrackRequest) returns (TrackResponse);
+}
+
+message TrackRequest {
+    string search_term = 1;
+}
+
+message TrackResponse {
+    repeated Track tracks = 1;
+}
+
+message Track {
+    string artist_id = 1;
+    string artist_name = 2;
+    string genres = 3;
+    string id = 4;
+    string name = 5;
+    float popularity = 6;
+    float danceability = 7;
+    float energy = 8;
+    float key = 9;
+    float loudness = 10;
+    float mode = 11;
+    float speechiness = 12;
+    float acousticness = 13;
+    float instrumentalness = 14;
+    float liveness = 15;
+    float valence = 16;
+    float tempo = 17;
+    float duration_ms = 18;
+    float time_signature = 19;
+    google.protobuf.Timestamp added_date = 20;
+}
