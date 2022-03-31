@@ -119,22 +119,22 @@
   * OpenId Connect
 * Similar to securing a Web API app (authorization attributes, etc.)
 
-### Sample Projects
+## Sample Projects
 
 * [GRPC Server](/src/Grpc.Demo/Server/) (final version created in this demo)
 * [GRPC Client](/src/Grpc.Demo/Client/) (final version created in this demo)
 * [GRPC Legacy (.NET Framework) Client](/src/Grpc.Demo/Grpc.Legacy/)
 
-### Links / Additional Reading
+## Links / Additional Reading
 
-#### GRPC
+### GRPC
 
 * [Create a .NET Core gRPC client and server in ASP.NET Core | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/grpc/grpc-start?view=aspnetcore-3.0&tabs=visual-studio)
 * [Use gRPC client with .NET Standard 2.0 | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/grpc/netstandard?view=aspnetcore-6.0)
 * [Versioning gRPC services | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/grpc/versioning?view=aspnetcore-6.0)
 * [Performance best practices with gRPC | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/grpc/performance?view=aspnetcore-6.0)
 
-#### Proto
+### Proto
 
 * [protobuf-net/protobuf-net: Protocol Buffers library for idiomatic .NET (github.com)](https://github.com/protobuf-net/protobuf-net)
 * [Language Guide  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/proto)
