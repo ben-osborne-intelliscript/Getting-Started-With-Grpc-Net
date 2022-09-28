@@ -53,7 +53,7 @@
     </ItemGroup>
     ```
 
-6. Run, demonstration communication with server.
+6. Run, demonstrating communication with server.
 7. Add [Greet Client Program.cs](src/greet-client-program.cs)
 
 ### New Service
