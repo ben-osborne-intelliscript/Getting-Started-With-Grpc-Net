@@ -30,10 +30,10 @@
         "Microsoft.AspNetCore.Routing.EndpointMiddleware": "Information"
     ```
 
-4. Show `greet.proto`
+4. Show [`greet.proto`](src/Grpc.Demo/Server/Grpc.Demo.Server/Protos/greet.proto)
     * Explain.
     * Show Properties.
-5. Show `GreeterService.cs`
+5. Show [`GreeterService.cs`](src/Grpc.Demo/Server/Grpc.Demo.Server/Services/GreeterService.cs)
     * Show Generated class
     * Demonstrate updating
 6. Run
